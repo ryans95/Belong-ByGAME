@@ -247,7 +247,7 @@ error_reporting(0);
                 //and total
                 $total.text(recalculateTotal(sc) - this.data().price);
 
-                //remove the item from our cart
+                //remove the item from the cart
                 $('#cart-item-' + this.settings.id).remove();
 
                 //seat has been vacated
